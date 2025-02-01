@@ -24,8 +24,8 @@ service:
     - "/var/log/pterodactyl/:/var/log/pterodactyl/"
     - "/tmp/pterodactyl/:/tmp/pterodactyl/"
     - "/etc/ssl/certs:/etc/ssl/certs:ro"
-    #you may need /srv/daemon-data id you are upgrading from a old deamon
-    #- "/srv/daemon-data/:ser/daemon-data/"
+    # you may need /srv/daemon-data id you are upgrading from a old deamon
+    #- "/srv/daemon-data/:/srv/daemon-data/"
      Required for ssl if you use let's encrypt. uncomment to use.
     #- "/etc/letsencrypt/:/etc/letsencrypt/"
 network:
